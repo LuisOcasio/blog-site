@@ -1,0 +1,22 @@
+.blog-posts {
+  width: 100%;
+  padding: 1rem;
+
+  .post-summary {
+    margin-bottom: 1rem;
+    text-align: center;
+
+    h2 {
+      margin: 0;
+      color: #353535;
+      text-align: right;
+    }
+
+    .blog-post-meta {
+      margin-bottom: 1rem;
+      font-size: 1rem;
+      font-family: $font-sans-serif;
+      color: #9a9a9a;
+    }
+  }
+}

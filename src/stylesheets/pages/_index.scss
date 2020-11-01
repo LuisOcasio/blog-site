@@ -1,0 +1,22 @@
+.home-header {
+  text-align: center;
+
+  .blog-avatar {
+    height: 140px;
+    width: 140px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    margin: 1em auto;
+  }
+
+  .blog-description {
+    font-size: 2rem;
+    color: #9a9a9a;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    font-family: $font-sans-serif;
+    border-bottom: 1px solid #dadada;
+  }
+}

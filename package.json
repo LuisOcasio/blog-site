@@ -1,0 +1,49 @@
+{
+  "name": "fullstackog-blog",
+  "private": true,
+  "description": "Blog site",
+  "version": "0.1.0",
+  "author": "FullstackOg",
+  "dependencies": {
+    "audit": "0.0.6",
+    "fix": "0.0.6",
+    "gatsby": "^2.19.12",
+    "gatsby-plugin-less": "^3.0.19",
+    "gatsby-plugin-manifest": "^2.2.37",
+    "gatsby-plugin-offline": "^2.0.25",
+    "gatsby-plugin-react-helmet": "^3.1.21",
+    "gatsby-plugin-sass": "^2.1.27",
+    "gatsby-plugin-sharp": "^2.4.0",
+    "gatsby-source-filesystem": "^2.1.46",
+    "gatsby-source-prismic-graphql": "^3.1.3",
+    "gatsby-transformer-sharp": "^2.3.13",
+    "less": "^3.10.3",
+    "node-sass": "^4.13.1",
+    "prismic-javascript": "^2.1.5",
+    "prismic-reactjs": "^0.3.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-helmet": "^5.2.0",
+    "semantic-ui-less": "^2.4.1",
+    "semantic-ui-react": "^0.88.2"
+  },
+  "devDependencies": {
+    "prettier": "^1.16.4"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "now-build": "gatsby build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisOcasio/my-blog.git"
+  }
+}
