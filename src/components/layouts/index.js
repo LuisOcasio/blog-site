@@ -52,7 +52,7 @@ const Layout = props => {
           rel="stylesheet"
         ></link>
       </Helmet>
-      <h2 style={{ textAlign: "center" }}>FullstackOg</h2>
+      <h2 style={{ textAlign: "center" }}>Fullstack_</h2>
       <main>{props.children}</main>
       <Footer />
     </div>
